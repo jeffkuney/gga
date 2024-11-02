@@ -16,7 +16,7 @@ class BoardGameScoreKeeper:
         else:
             print(f"Player {player} not found!")
 
-    def save_scores(self, filename="game_scores.json"):
+    def save_scores(self, filename="game_scoresGPT.json"):
         data = {
             "scores": self.scores,
             "history": self.history

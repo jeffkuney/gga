@@ -8,7 +8,7 @@ class ScoreKeeper:
     def __init__(self):
         self.scores = {}
         self.game_history = []
-        self.filename = "game_scores.json"
+        self.filename = "game_scoresCursor.json"
         self.load_history()
 
     def load_history(self):
