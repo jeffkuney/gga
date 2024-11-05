@@ -1,0 +1,27 @@
+test consistency of cursor and gpt
+
+test recall/rewriting
+test complexity
+1 test small prompt vs large promt
+1 2 ask for code in 4 stages, wipe the slate, put the prompts together, rewrite the prompt
+1 test interface design style
+
+test phases and file names
+
+1 scoreKeeper - ask for generic script, ask for an interface, 
+2 - ask for 2 seperate scripts then ask to combine them, 
+3 - 
+
+
+scoreKeeper-gpt.py
+scoreKeeperInterface-gpt.py
+
+scoreKeeper-cursor.py
+scoreKeeperInterface-cursor.py
+
+would it be easier to see differences by saving multiple files or 1 file in many different ways?
+1 file
+
+
+
+(whipe and thew)
